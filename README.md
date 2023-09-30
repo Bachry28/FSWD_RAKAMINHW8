@@ -1,11 +1,11 @@
 Seeding and Migration Code
 
-migration 
+Migration SQL UP 
 
 ALTER TABLE actor
 ADD COLUMN age VARCHAR;
 
-seeding
+Seeding SQL
 
 INSERT INTO actor (actor_id, first_name, last_name, last_update)
 VALUES (202, 'karlk', 'wise', CURRENT_TIMESTAMP), (203, 'ilomi', 'quert', CURRENT_TIMESTAMP), 
